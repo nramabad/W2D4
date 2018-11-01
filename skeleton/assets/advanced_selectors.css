@@ -43,4 +43,15 @@ ol {
   font-weight: bold;
 }
 
+input[type="submit"], input[type="radio"], select {
+  cursor: pointer;
+  outline: none;
+}
 
+input[type="submit"]:last-child:hover {
+  background-color: gold
+}
+
+ol li:nth-of-type(2n) {
+  background-color: grey;
+}
