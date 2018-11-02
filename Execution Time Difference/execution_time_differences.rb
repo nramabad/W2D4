@@ -33,7 +33,7 @@ end
 #   max
 # end
 
-# PHASE II:
+# PHASE II: O(n)
 def sub_sum(list)
   sums = []
   low = -1
